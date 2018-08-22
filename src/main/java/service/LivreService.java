@@ -1,9 +1,9 @@
-package src.main.java.service;
+package service;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
-import src.main.java.model.Livre;
+import model.Livre;
 
 public class LivreService implements ILivreService {
 

@@ -1,6 +1,6 @@
-package src.main.java.service;
+package service;
 
-import src.main.java.model.Livre;
+import model.Livre;
 
 public interface ILivreService {
 

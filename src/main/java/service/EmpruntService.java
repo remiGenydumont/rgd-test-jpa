@@ -1,13 +1,13 @@
-package src.main.java.service;
+package service;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
-import src.main.java.model.Client;
-import src.main.java.model.Emprunt;
-import src.main.java.model.Livre;
+import model.Client;
+import model.Emprunt;
+import model.Livre;
 
 public class EmpruntService implements IEmpruntService {
 	private EntityManager em ;

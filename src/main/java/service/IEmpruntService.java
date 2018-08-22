@@ -1,9 +1,9 @@
-package src.main.java.service;
+package service;
 
 import java.util.List;
-import src.main.java.model.Client;
-import src.main.java.model.Emprunt;
-import src.main.java.model.Livre;
+
+import model.Emprunt;
+import model.Livre;
 
 public interface IEmpruntService {
 	public List<Emprunt> getAllEmpruntByUser(int id_client);
